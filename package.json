@@ -1,0 +1,38 @@
+{
+    "name": "discordjs-v14-template-ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "cls && node build/index.js",
+        "build": "cls && tsc"
+    },
+    "keywords": [],
+    "author": "MericcaN41",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/rest": "^1.1.0",
+        "@discordjs/voice": "^0.17.0",
+        "@ffmpeg-installer/ffmpeg": "^1.1.0",
+        "@types/node": "^18.7.14",
+        "axios": "^1.7.2",
+        "chalk": "^4.1.2",
+        "discord.js": "^14.15.3",
+        "dotenv": "^16.0.2",
+        "mongoose": "^6.5.4",
+        "node-fetch": "^2.7.0",
+        "opusscript": "^0.0.8",
+        "uuid": "^9.0.1",
+        "yt-search": "^2.11.0",
+        "ytdl-core": "^4.11.5"
+    },
+    "devDependencies": {
+        "@types/node-fetch": "^2.6.11",
+        "@types/uuid": "^9.0.8",
+        "@types/yt-search": "^2.10.3",
+        "typescript": "^5.4.5"
+    },
+    "overrides": {
+        "discord-api-types": "0.37.20"
+    }
+}
